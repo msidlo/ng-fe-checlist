@@ -18,6 +18,7 @@
 * **Testability**
     * is it hard to write tests ? (possible bad design, tight coupling,...)
     * are unit tests present ? if not, is there good reason
+    * is the test reasonable ?
 * **Variables/methods/code style**
     * is it clear upon initial reading (may be confusing or additional read needed)
     * no unnecessary/duplicated logic
