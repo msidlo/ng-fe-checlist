@@ -22,6 +22,9 @@
 * **Translations**
    * is every new field added for translation (i18n) ?
    * is message.xlf changed accordingly ?
+* **Memory leaks**
+   * is there any possibility for a memory leak ?
+   * is every subscribtion finished on component destroy ?
 * **Variables/methods/code style**
     * is it clear upon initial reading (may be confusing or additional read needed)
     * no unnecessary/duplicated logic
