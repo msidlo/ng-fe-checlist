@@ -13,8 +13,11 @@
     * writing `*ngIf="var === 1"` in template is ok, anything longer should be moved away
 * **Delegate logic to directive**
     * are there any candidates to be extracted to directives
-* **Component input changes**
-    * what happens when the variables are loaded asynchronously (will it effect template, change subscribtion,...)
+* **DOM manipulation**
+    * component input changes - what happens when the variables are loaded asynchronously (will it effect template, change subscribtion,...)
+    * browser compatibility of events/attributes
+    * when using DOM elements, can it break SSR ? Is it properly mocked ?
+    * update polyfills ?
 * **Testability**
     * is it hard to write tests ? (possible bad design, tight coupling,...)
     * are unit tests present ? if not, is there good reason
@@ -32,5 +35,4 @@
     * unused imports
 * **What does it actually do ?**
     * last but not least, is it really doing what it what was required ?
-
 ***
